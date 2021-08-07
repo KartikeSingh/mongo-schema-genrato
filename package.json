@@ -1,0 +1,18 @@
+{
+  "name": "mongo-schema-genrator",
+  "version": "0.0.4-0",
+  "description": "An module to convert normal JS object to Mongo Schema",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "schema",
+    "genrator",
+    "mongodb schema"
+  ],
+  "author": "shisui",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
