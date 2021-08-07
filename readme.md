@@ -7,6 +7,7 @@ npm i mongo-schema-genrator
 # Why use us?
 Are you also annyoned writing Mongo DB Schema for your Database?
 if Yes than you are at the right place, you can use this package to easily convert a JSON Objec to Mongo Schema of your choice.
+also ignore the type in generator xD
 
 # How to Use ?
 
@@ -56,7 +57,7 @@ const Schema = new mongoose.Schema({
     male:{type:Boolean},
 })
 
-module.exports = new mongoose.Model("Schema",Schema);
+module.exports = mongoose.model("Schema",Schema);
 ```
 
 ## Output with Defaults
@@ -78,5 +79,5 @@ const Schema = new mongoose.Schema({
     male:{type:Boolean,default:true},
 })
 
-module.exports = new mongoose.Model("Schema",Schema);
+module.exports = mongoose.model("Schema",Schema);
 ```
